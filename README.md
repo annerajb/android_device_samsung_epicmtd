@@ -21,3 +21,12 @@ brunch epicmtd
 and the build will begin!
 
 At the end of the compile, the generate ota package will be in `out/target/product/epicmtd/`
+
+so far i havent gotten the zip file to work.
+but the files for this commands i have
+```
+$ fastboot flash boot boot.img
+$ fastboot flash system system.img
+$ fastboot flash recovery recovery.img
+$ fastboot flash userdata userdata.img
+```
